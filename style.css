@@ -1,0 +1,38 @@
+body
+{
+    background-image: url("https://img.freepik.com/free-photo/grey-textured-background_24972-763.jpg?size=626&ext=jpg");
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-align: center;
+    letter-spacing: 5px !important;
+    background-size: cover;
+}
+button
+{
+    width: 500px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: purple;
+    border-radius: 100px;
+    color: white !important;
+}
+h1:hover
+{
+
+    background-color: blanchedalmond !important;
+    border-radius: 70px !important;
+    color: black !important;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 36px blue;}
+    to{box-shadow: 1px 1px 36px yellow;}
+}
